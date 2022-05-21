@@ -1,0 +1,12 @@
+.inner-wrap {
+    display: flex;
+    gap: 5vw;
+    /* flex-wrap: wrap; */
+}
+.inner-wrap > .content-wrap {
+    max-width: 350px;
+}
+.inner-wrap p {
+    max-width: 150px;
+    word-break: break-all;
+}
